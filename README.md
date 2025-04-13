@@ -1,48 +1,6 @@
 # EssentialsX-Commands
 EssentialsX Commands for the skibidi family server :)
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EssentialsX Commands - Skibidi Family Server</title>
-  <style>
-    body {
-      background-color: #1b1b1b;
-      color: #e0e0e0;
-      font-family: 'Courier New', Courier, monospace;
-      padding: 2rem;
-    }
-    h1, h2 {
-      color: #00ffff;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 2rem;
-    }
-    th, td {
-      border: 1px solid #444;
-      padding: 10px;
-      text-align: left;
-    }
-    th {
-      background-color: #333;
-    }
-    td code {
-      color: #00ffcc;
-    }
-    .section-title {
-      margin-top: 2rem;
-      font-size: 1.5rem;
-    }
-  </style>
-</head>
-<body>
-  <h1>EssentialsX Commands</h1>
-  <p>for the <strong>Skibidi Family Server</strong> :)</p>
-
   <h2 class="section-title">🏠 Home & Teleportation</h2>
   <table>
     <tr><th>Command</th><th>What it does</th></tr>
