@@ -1,62 +1,122 @@
 # EssentialsX-Commands
 EssentialsX Commands for the skibidi family server :)
 
-  <h2 class="section-title">🏠 Home & Teleportation</h2>
-  <table>
-    <tr><th>Command</th><th>What it does</th></tr>
-    <tr><td><code>/sethome</code></td><td>Sets your home location</td></tr>
-    <tr><td><code>/home</code></td><td>Teleports you to your home</td></tr>
-    <tr><td><code>/delhome</code></td><td>Deletes your home</td></tr>
-    <tr><td><code>/spawn</code></td><td>Teleports you to the world spawn</td></tr>
-    <tr><td><code>/tpa &lt;player&gt;</code></td><td>Sends a teleport request to someone</td></tr>
-    <tr><td><code>/tpaccept</code></td><td>Accept a teleport request</td></tr>
-    <tr><td><code>/tpdeny</code></td><td>Deny a teleport request</td></tr>
-    <tr><td><code>/warp &lt;name&gt;</code></td><td>Teleport to a pre-set warp</td></tr>
-    <tr><td><code>/setwarp &lt;name&gt;</code></td><td>Set a warp point (OP only)</td></tr>
-  </table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EssentialsX Commands</title>
+  <style>
+    body {
+      background: #121212;
+      color: #f5f5f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #00bcd4;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #000;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 2.5rem;
+    }
+    .section h2 {
+      color: #00e5ff;
+      border-bottom: 1px solid #00e5ff;
+      padding-bottom: 0.5rem;
+    }
+    .command-block {
+      background: #1f1f1f;
+      padding: 1rem;
+      border-left: 4px solid #00e5ff;
+      margin: 0.75rem 0;
+      border-radius: 5px;
+    }
+    .command-block code {
+      font-weight: bold;
+      color: #80d8ff;
+    }
+    footer {
+      text-align: center;
+      color: #777;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EssentialsX Commands</h1>
+    <p>For the Skibidi Family Server :)</p>
+  </header>
+  <div class="container">
 
-  <h2 class="section-title">🎒 Inventory & Items</h2>
-  <table>
-    <tr><th>Command</th><th>What it does</th></tr>
-    <tr><td><code>/kit &lt;kitname&gt;</code></td><td>Gives you a predefined item kit</td></tr>
-    <tr><td><code>/give &lt;player&gt; &lt;item&gt; [amount]</code></td><td>Gives an item to a player</td></tr>
-    <tr><td><code>/clear</code></td><td>Clears your inventory</td></tr>
-    <tr><td><code>/more</code></td><td>Gives you a full stack of the item in hand</td></tr>
-    <tr><td><code>/repair</code></td><td>Repairs the item you're holding</td></tr>
-    <tr><td><code>/enchant &lt;enchant&gt; &lt;level&gt;</code></td><td>Adds enchantment to held item (OP only)</td></tr>
-  </table>
+  <div class="section">
+      <h2>🏠 Home & Teleportation</h2>
+      <div class="command-block"><code>/sethome</code> – Sets your home location</div>
+      <div class="command-block"><code>/home</code> – Teleports you to your home</div>
+      <div class="command-block"><code>/delhome</code> – Deletes your home</div>
+      <div class="command-block"><code>/spawn</code> – Teleports you to the world spawn</div>
+      <div class="command-block"><code>/tpa &lt;player&gt;</code> – Sends a teleport request to someone</div>
+      <div class="command-block"><code>/tpaccept</code> – Accept a teleport request</div>
+      <div class="command-block"><code>/tpdeny</code> – Deny a teleport request</div>
+      <div class="command-block"><code>/warp &lt;name&gt;</code> – Teleport to a pre-set warp</div>
+      <div class="command-block"><code>/setwarp &lt;name&gt;</code> – Set a warp point (OP only)</div>
+    </div>
 
-  <h2 class="section-title">💲 Economy (If Vault is installed)</h2>
-  <table>
-    <tr><th>Command</th><th>What it does</th></tr>
-    <tr><td><code>/bal</code> or <code>/balance</code></td><td>Check your money</td></tr>
-    <tr><td><code>/pay &lt;player&gt; &lt;amount&gt;</code></td><td>Send money to a player</td></tr>
-    <tr><td><code>/eco give &lt;player&gt; &lt;amount&gt;</code></td><td>Add money (OP/admin only)</td></tr>
-  </table>
+  <div class="section">
+      <h2>🎒 Inventory & Items</h2>
+      <div class="command-block"><code>/kit &lt;kitname&gt;</code> – Gives you a predefined item kit</div>
+      <div class="command-block"><code>/give &lt;player&gt; &lt;item&gt; [amount]</code> – Gives an item to a player</div>
+      <div class="command-block"><code>/clear</code> – Clears your inventory</div>
+      <div class="command-block"><code>/more</code> – Gives you a full stack of the item in hand</div>
+      <div class="command-block"><code>/repair</code> – Repairs the item you're holding</div>
+      <div class="command-block"><code>/enchant &lt;enchant&gt; &lt;level&gt;</code> – Adds enchantment to held item (OP only)</div>
+    </div>
 
-  <h2 class="section-title">👻 Player Control</h2>
-  <table>
-    <tr><th>Command</th><th>What it does</th></tr>
-    <tr><td><code>/god</code></td><td>Toggle invincibility</td></tr>
-    <tr><td><code>/fly</code></td><td>Toggle flying</td></tr>
-    <tr><td><code>/heal</code></td><td>Heal yourself</td></tr>
-    <tr><td><code>/feed</code></td><td>Fill hunger bar</td></tr>
-    <tr><td><code>/nick &lt;name&gt;</code></td><td>Set a nickname</td></tr>
-    <tr><td><code>/msg &lt;player&gt; &lt;message&gt;</code></td><td>Send a private message</td></tr>
-    <tr><td><code>/afk</code></td><td>Set your status as away</td></tr>
-  </table>
+  <div class="section">
+      <h2>💲 Economy (If Vault is installed)</h2>
+      <div class="command-block"><code>/bal</code> or <code>/balance</code> – Check your money</div>
+      <div class="command-block"><code>/pay &lt;player&gt; &lt;amount&gt;</code> – Send money to a player</div>
+      <div class="command-block"><code>/eco give &lt;player&gt; &lt;amount&gt;</code> – Add money (OP/admin only)</div>
+    </div>
 
-  <h2 class="section-title">🧹 Admin / OP Tools</h2>
-  <table>
-    <tr><th>Command</th><th>What it does</th></tr>
-    <tr><td><code>/ban &lt;player&gt;</code></td><td>Ban a player</td></tr>
-    <tr><td><code>/kick &lt;player&gt;</code></td><td>Kick a player</td></tr>
-    <tr><td><code>/mute &lt;player&gt;</code></td><td>Mute a player</td></tr>
-    <tr><td><code>/unban &lt;player&gt;</code></td><td>Unban a player</td></tr>
-    <tr><td><code>/invsee &lt;player&gt;</code></td><td>View another player's inventory</td></tr>
-    <tr><td><code>/tp &lt;player&gt;</code></td><td>Teleport directly to a player</td></tr>
-    <tr><td><code>/back</code></td><td>Go back to your previous location (death or teleport)</td></tr>
-  </table>
+  <div class="section">
+      <h2>👻 Player Control</h2>
+      <div class="command-block"><code>/god</code> – Toggle invincibility</div>
+      <div class="command-block"><code>/fly</code> – Toggle flying</div>
+      <div class="command-block"><code>/heal</code> – Heal yourself</div>
+      <div class="command-block"><code>/feed</code> – Fill hunger bar</div>
+      <div class="command-block"><code>/nick &lt;name&gt;</code> – Set a nickname</div>
+      <div class="command-block"><code>/msg &lt;player&gt; &lt;message&gt;</code> – Send a private message</div>
+      <div class="command-block"><code>/afk</code> – Set your status as away</div>
+    </div>
 
+  <div class="section">
+      <h2>🧹 Admin / OP Tools</h2>
+      <div class="command-block"><code>/ban &lt;player&gt;</code> – Ban a player</div>
+      <div class="command-block"><code>/kick &lt;player&gt;</code> – Kick a player</div>
+      <div class="command-block"><code>/mute &lt;player&gt;</code> – Mute a player</div>
+      <div class="command-block"><code>/unban &lt;player&gt;</code> – Unban a player</div>
+      <div class="command-block"><code>/invsee &lt;player&gt;</code> – View another player's inventory</div>
+      <div class="command-block"><code>/tp &lt;player&gt;</code> – Teleport directly to a player</div>
+      <div class="command-block"><code>/back</code> – Go back to your previous location (death or teleport)</div>
+    </div>
+
+  </div>
+  <footer>
+    &copy; Skibidi Family Server • Made with EssentialsX
+  </footer>
 </body>
 </html>
